@@ -1,0 +1,250 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul
+{
+    list-style-type: none;
+}
+.clear
+{
+    clear: both;
+
+}
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.main-d
+{   
+    background-image: url(slider-01.jpg);
+    background-size: cover;
+   
+    background-position: center center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    margin-bottom: 68px;
+
+ 
+}
+.layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.text-logo
+{
+    margin-top: 20p;
+    float: left;
+    color: red;
+padding: 20px;
+}
+ .nav-mue ul
+{
+    margin-top: 20p;
+    float: right;
+    list-style-type: none;
+    position: sticky;
+    top: 20px;
+color: black;   
+}
+.nav-mue li
+{
+    float: left;
+    padding: 25px 15px;
+}
+.nav-mue a {
+    text-decoration: none;
+    color: white;
+}
+.nav-mue a:hover
+{
+    color: red;
+}
+.text-two
+{
+    text-align: center;
+position: relative;
+top: 200px;
+
+    padding: 16px 36px;
+    margin: auto;
+}
+.text-two h3 
+{
+    font: 24px "sorce sans pro ",sans -serif;
+    margin: 0px 0px 10px;
+}
+.text-two h1
+{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ .text-two h4
+{
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #fff;
+    font: inherit;
+}
+
+.img-box
+{
+    float: left;
+    width: 35%;
+    border: 10px solid #555;
+    border-radius: 5px;
+}
+.img-profile
+{
+    transform:translate(24px, 24px);
+}
+.img-profile img
+{
+    width: 100%;
+    border-radius: 5px;
+}
+.img-profile img:hover
+{
+    color:blue;
+}
+ .about-dsction
+{
+    float: right;
+    text-align: left;
+    display: inline;
+    width: 65%;
+    padding-left: 70px;
+}
+
+.sec-capt
+{
+margin-bottom: 20px;
+}
+.about ul li
+{
+    color: #555555;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+.btm button
+{
+    background-color:#ff305b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.sec-capt  h2
+{ font-size: 32px;
+    position: relative;
+    padding-left: 10px;
+}
+ .sec-capt h2::before
+{
+    content: "";
+    background-color:red;
+    position: absolute;
+    top: 50%;
+    top: 8%;
+    left: 0;
+    width: 5px;
+    height: 27px;
+}
+.about ul li span 
+{
+        color: #333333;
+        font-weight: 500;
+}
+.sec-capt p
+{ padding: 10px;
+    color: #555;
+}
+.sec-capt hr
+{border: 1px dotted #333333;
+}
+.ourservuces h2
+{
+    text-align: center;
+    position: relative;
+}
+/* .ourservuces h2::before
+{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 28%;
+    top: 1%;
+    left: 494px;
+    width: 157px;
+    height: 2px;
+}
+.ourservuces h2::after
+{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 28%;
+    top: 1%;
+    left: 494px;
+    width: 157px;
+    height: 2px;
+} */
+.cell
+{padding: 50px;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.big-cell
+{
+    background-color: rgb(172, 170, 170);
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    width: 100%;
+}
+ .text-pr
+{
+
+    width: 100%;
+    text-align: center;
+
+}
+.img-pr{
+    float: left;
+    width: 33.333%;
+    padding: 50px;
+    margin: auto;
+}
+.img-pr img
+{
+    width: 100%;
+}
+.icon
+{
+    float: left;
+    width: 35%;
+    text-align: center;
+}
